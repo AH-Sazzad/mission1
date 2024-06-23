@@ -157,3 +157,39 @@ body {
 #developer .img {
   margin-right: 5%;
 }
+#know {
+  background-image: url(images/shapes/shape-1.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: 190px;
+}
+#app #app-1 {
+  width: 100%;
+}
+#app #app-1 div {
+  width: 40%;
+}
+#app #app-1 .app-img {
+  width: 40%;
+  margin: 0px 40px;
+}
+#app #app-1 img {
+  width: 100%;
+}
+#app .data a {
+  text-decoration: none;
+  color: #fff;
+  background-color: #ff5959;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 2% 6%;
+  border-radius: 7px;
+}
+#app .data a:hover {
+  color: #333333;
+}
+#app .data .p1 {
+  margin-bottom: 30px;
+  margin-top: -30px;
+}
