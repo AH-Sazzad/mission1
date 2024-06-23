@@ -172,9 +172,16 @@ body {
 #app #app-1 .app-img {
   width: 40%;
   margin: 0px 40px;
+  background-image: url(images/shapes/shape-3.png),
+    url(images/shapes/shape-3.png), url(images/shapes/shape-3.png);
+  background-repeat: no-repeat;
+  background-position: top left, left bottom, bottom right;
+  background-size: 165px;
+  background-position-y: 3px, 500px, 290px;
+  background-position-x: 0px, 0px, 225px;
 }
-#app #app-1 img {
-  width: 100%;
+#app #app-1 .app-img img {
+  width: 80%;
 }
 #app .data a {
   text-decoration: none;
@@ -192,4 +199,41 @@ body {
 #app .data .p1 {
   margin-bottom: 30px;
   margin-top: -30px;
+}
+.mission h2 {
+  font-size: 50px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+.mission h2 span {
+  color: #ffad5a;
+}
+.mission .app-info {
+  font-size: 50px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  margin: 0;
+}
+
+.footer {
+  width: 100%;
+  background-color: #0b0d17;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.footer h2 {
+  color: #fff;
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+}
+.footer h2 span {
+  color: #ff5959;
+}
+.footer p {
+  color: #ffffffac;
 }
