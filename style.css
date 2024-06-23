@@ -54,9 +54,66 @@ body {
   font-weight: 400;
   padding: 2% 6%;
   border-radius: 7px;
-  
 }
-.top-banner .info a:hover{
-    color: #000;
-    box-shadow: 0px 2px 30pc #ffad5a;
+.top-banner .info a:hover {
+  color: #000;
+  box-shadow: 0px 2px 30pc #ffad5a;
+}
+/*top banner end */
+/*my mission Start*/
+.mission {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0px auto;
+  margin-top: 40px;
+}
+.mission h1 {
+  font-size: 50px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+.mission h1 span {
+  color: #ffad5a;
+}
+.mission .goal {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  font-family: "Poppins", sans-serif;
+}
+
+.mission .goal .item {
+  width: 30%;
+  background-color: #fff4d6;
+  margin: 0% 1%;
+  border-radius: 20px;
+  padding: 0% 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 600px;
+  text-align: center;
+}
+.mission .goal .item img {
+  width: 63%;
+}
+.mission .goal #item-1 {
+  background-color: #edf5f6;
+}
+.mission .goal #item-2 {
+  background-color: #ffeeee;
+}
+.mission .goal h3 {
+  font-size: 20px;
+  font-weight: 700;
+}
+.mission hr {
+  width: 50%;
+  margin-top: -40px;
 }
